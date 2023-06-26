@@ -9,8 +9,5 @@ export function download(url: string, fileName = '') {
 }
 
 export const App = () => (
-  <div style={{display: 'flex', gap: '16px'}}>
-    <button onclick={() => download('/example.png', 'test.png')}>download test.png</button>
-    <button onclick={() => download('/example.png')}>download empty name</button>
-  </div>
+  <button onclick={() => download('./example.png', 'test.png')}>download test.png</button>
 )
