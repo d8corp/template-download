@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "npx innetjs build",
+    "start": "npx innetjs start"
+  },
+  "dependencies": {
+    "innet": "^2.0.0-alpha.2",
+    "@innet/dom": "^0.15.0-alpha.4",
+    "@innet/jsx": "^2.0.0-alpha.7",
+    "html-classes": "^2.0.2",
+    "watch-state": "^3.5.0-alpha.3"
+  },
+  "devDependencies": {
+    "innetjs": "^2.5.3"
+  }
+}
